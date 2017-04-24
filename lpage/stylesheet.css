@@ -1,0 +1,74 @@
+@font-face { font-family: Roboto; src: url('roboto.ttf'); } 
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+   background-image: url("images/bg.jpeg");
+   width: 100%;
+   height: 470px;
+   background-size: 100% 100%;
+}
+
+#logoheader {
+   margin: 0px 0px 0px 100px;
+}
+
+.navheaderpos {
+   padding: 15px 0px 0px 300px;
+}
+
+.navheader a {
+   color: gray;
+}
+
+.textheader {
+   text-align: center;
+   color: white;
+   padding: 40px 0px 0px 0px;
+   line-height: 150%;
+   font-size: 45;
+   font-family: Roboto, sans-serif;
+}
+
+.butheader {
+   text-align: center;
+   color: white;
+   padding: 20px 0px 0px 0px;
+}
+
+.texttheader {
+   text-align: center;
+   color: white;
+   padding: 20px 0px 0px 0px;
+   font-size: 13;
+}
+
+.body {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+
+.cuadro {
+   background: #eeeeee;
+   border-style: solid;
+   border-width: 1px 1px 1px 1px;
+   border-color: #9f9f9f;
+   padding: 50px 0px 30px 0px;
+}
+
+#subtextcuadro {
+   padding: 30px 0px 0px 0px;
+}
+
+.contacto {
+   padding: 30px 0px 30px 250px;
+}
+
+.footer {
+   background: #333333;
+   color: white;
+   padding: 20px 0px 20px 150px;
+}
